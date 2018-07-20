@@ -1,0 +1,12 @@
+$main: #48dbfb;
+$secondary: #222f3e;
+
+.header {
+  height: 5em;
+  width: 100%;
+  background-color: $secondary;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
