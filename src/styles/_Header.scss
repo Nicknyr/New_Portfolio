@@ -1,12 +1,36 @@
 $main: #48dbfb;
 $secondary: #222f3e;
 
-.header {
-  height: 5em;
-  width: 100%;
-  background-color: $secondary;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+@media only screen and (min-width : 300px) {
+  .header {
+    height: auto;
+    width: 100%;
+    background-color: $secondary;
+  }
+
+  .nav {
+    padding: 3em;
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+    li {
+
+    }
+  }
+
+  hr {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height:.5px;
+    color: snow;
+    background-color: snow;
+  }
+
+
 }

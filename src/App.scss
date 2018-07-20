@@ -1,6 +1,6 @@
+@import "primer-base/index.scss";
 @import "./styles/Header.scss";
 @import "./styles/Footer.scss";
 @import "./styles/Global.scss";
-
-$main: #48dbfb;
-$secondary: #222f3e;
+@import "./styles/Info.scss";
+@import "./styles/Projects.scss";

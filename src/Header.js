@@ -4,15 +4,21 @@ const Header = () => {
   return (
     <div className="header">
       <ul className="nav">
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-
-      <ul className="social-links">
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+          <a href="/">About</a>
+        </li>
+        <hr/>
+        <li>
+          <a href="/">Portfolio</a>
+        </li>
+        <hr/>
+        <li>
+          <a href="/">Resume</a>
+        </li>
+        <hr/>
+        <li>
+          <a href="/">Contact</a>
+        </li>
       </ul>
     </div>
   )
