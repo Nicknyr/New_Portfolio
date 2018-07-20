@@ -9,16 +9,30 @@ $secondary: #222f3e;
 body {
   background-color: $main;
   color: snow;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.8em;
 }
 
 a {
   color: snow;
   text-decoration: none;
+  font-family: 'Oswald', sans-serif;
 
   &:hover {
     color: #feca57;

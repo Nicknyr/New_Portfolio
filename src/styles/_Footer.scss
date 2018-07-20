@@ -1,6 +1,6 @@
-
 $main: #48dbfb;
 $secondary: #222f3e;
+
 
 .footer {
   width: 100%;
@@ -8,6 +8,10 @@ $secondary: #222f3e;
   //clear: both;
   background-color: $secondary;
   text-align: center;
+
+  .social-div {
+    padding-top: 3em;
+  }
 
   ul {
     list-style-type: none;
