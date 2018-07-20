@@ -7,4 +7,14 @@ $secondary: #222f3e;
   height: 50vh;
   //clear: both;
   background-color: $secondary;
+  text-align: center;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      padding: 1em;
+    }
+  }
+
 }
