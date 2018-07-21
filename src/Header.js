@@ -45,9 +45,11 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-      <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="3x" /></a>
+      <div className="hamburger">
+        <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="3x" /></a>
+      </div>
       {this.state.showMenu && <NavMenu onMouseDown={this.props.onMouseDown} onMouseUp={this.props.onMouseUp}/>}
-    </div>
+      </div>
     )
   }
 }

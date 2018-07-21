@@ -14,7 +14,7 @@ const NavMenu = () => {
         </li>
         <hr/>
         <li>
-          <a href="/">Resume</a>
+          <a href="/">Blog</a>
         </li>
         <hr/>
         <li>

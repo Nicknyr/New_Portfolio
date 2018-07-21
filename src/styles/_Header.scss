@@ -5,13 +5,43 @@ $secondary: #222f3e;
 
 @media only screen and (min-width : 300px) {
   .header {
-    height: auto;
     width: 100%;
   }
 
-  a {
+  .hamburger {
+    position: absolute;
+    z-index: 2;
     padding: 1em;
   }
+
+  .menu-div {
+    background-color: $secondary;
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 3em;
+    height: 50vh;
+  }
+
+
+  .nav {
+    list-style-type: none;
+  }
+
+
+  hr {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height:.5px;
+    color: snow;
+    background-color: snow;
+  }
+
 
 
 }

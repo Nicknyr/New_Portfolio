@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
@@ -19,6 +19,9 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="copyright">
+          Copyright <FontAwesomeIcon icon={'copyright'} /> 2018 Nick Kinlen
       </div>
     </div>
   )

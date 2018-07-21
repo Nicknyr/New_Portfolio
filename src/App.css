@@ -506,10 +506,31 @@ pre {
 
 @media only screen and (min-width: 300px) {
   .header {
-    height: auto;
     width: 100%; }
-  a {
-    padding: 1em; } }
+  .hamburger {
+    position: absolute;
+    z-index: 2;
+    padding: 1em; }
+  .menu-div {
+    background-color: #222f3e;
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 3em;
+    height: 50vh; }
+  .nav {
+    list-style-type: none; }
+  hr {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height: .5px;
+    color: snow;
+    background-color: snow; } }
 
 .footer {
   width: 100%;
@@ -522,6 +543,10 @@ pre {
     list-style-type: none; }
     .footer ul li {
       padding: 1em; }
+
+.content {
+  width: 90%;
+  margin: auto; }
 
 body {
   background-color: #48dbfb;
@@ -562,7 +587,7 @@ a {
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 300px) {
   .info-section {
-    padding-top: 5em;
+    padding-top: 10em;
     width: 90%;
     height: 150vh;
     margin-left: auto;
@@ -613,22 +638,3 @@ a {
     .project-section .project-image {
       max-width: 100%;
       max-height: 500px; } }
-
-.nav {
-  background-color: #222f3e;
-  text-align: center;
-  list-style-type: none;
-  font-size: 1.4em;
-  font-weight: bolder;
-  text-transform: uppercase;
-  padding: 3em; }
-
-hr {
-  width: 50%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  height: .5px;
-  color: snow;
-  background-color: snow; }

@@ -6,6 +6,11 @@
 $main: #48dbfb;
 $secondary: #222f3e;
 
+.content {
+  width: 90%;
+  margin: auto;
+}
+
 body {
   background-color: $main;
   color: snow;

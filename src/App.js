@@ -7,19 +7,21 @@ import Projects from './Projects';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, faBars, faCopyright } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-library.add(fab, faCheckSquare, faCoffee, faBars)
+library.add(fab, faCheckSquare, faCoffee, faBars, faCopyright)
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <Info />
-        <Projects />
+        <div className="content">
+          <Info />
+          <Projects />
+        </div>
         <Footer />
       </div>
     );
