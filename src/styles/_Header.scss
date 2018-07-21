@@ -42,6 +42,26 @@ $secondary: #222f3e;
     background-color: snow;
   }
 
+}
 
 
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .menu-div {
+    display: block;
+    background-color: $secondary;
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 3em;
+    height: 50vh;
+  }
 }

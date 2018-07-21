@@ -6,10 +6,17 @@ import MyPic from './images/me.png';
 const Info = () => {
   return (
     <div className="info-section" id="intro">
-        <h1>Nick Kinlen</h1>
-        <h2>Front-end Developer</h2>
-        <img src={MyPic} className="my-image"/>
-        <p>I am a front-web web developer from the New York City metro area with experience building web apps with the core web languages HTML, CSS, Javascript as well as React.js and other Javascript libraries and frameworks such as Redux, D3, Leaflet, Mapbox, and Jquery.</p>
+      <h1>Nick Kinlen</h1>
+      <h2>Front-end Developer</h2>
+        <div className="me">
+          <img src={MyPic} className="my-image"/>
+        </div>
+
+        <div className="description">
+          <p>I am a front-web web developer from the New York City metro area with experience building web apps with the core web languages HTML, CSS, Javascript as well as React.js and other Javascript libraries and frameworks such as Redux, D3, Leaflet, Mapbox, and Jquery.</p>
+          <p>My interests include the MERN stack, open-source software, Linux, cryptocurrency, machine learning, and publishing web development tutorials and articles on the Steemit social media platform.</p>
+          <p>I am currently seeking a full time job as a front-end Javascript centric developer.</p>
+        </div>
     </div>
   )
 }

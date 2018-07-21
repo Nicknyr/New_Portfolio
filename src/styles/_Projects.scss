@@ -3,7 +3,7 @@
   .project-section {
     //padding-bottom: 5em;
     width: 90%;
-    height: 300vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -41,7 +41,93 @@
       max-height: 500px;
     }
 
-
-
   }
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .project-section {
+    width: 70%;
+  }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  ul li p, h3 {
+    display: none;
+  }
+
+
+  .project-section {
+    width: 100%;
+    position: relative;
+
+    ul {
+      width: 80%;
+      display: inline-block;
+
+      li {
+        display: inline;
+        vertical-align: top;
+      }
+    }
+  }
+
+
+  .image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: red;
+  }
+
+  .project-image {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+
+  .overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+  }
+
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    //transform: translate(-50%, -50%);
+    width: 300px;
+    //text-align: center;
+    //margin: auto;
+    font-size: 20px;
+    height: 100%;
+  }
+
+  .overlay-hover {
+    height: 100%;
+    width: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .image-container:hover {
+    opacity: .5;
+  }
+
+  .image-container:hover .overlay-hover {
+    height: 200px;
+  }
+
+
 }

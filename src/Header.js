@@ -11,8 +11,7 @@ class Header extends React.Component {
     super(props);
 
     this.state = {
-      showMenu: false,
-      outSideClick : false
+      showMenu: false
     }
   }
 
@@ -21,26 +20,6 @@ class Header extends React.Component {
     this.setState({showMenu: !this.state.showMenu})
   }
 
-  componentDidMount = () => {
-    window.addEventListener('onClick', this.outsideClick, true);
-  }
-
-
-  outsideClick = () => {
-    if(this.outSideClick) {
-      return ;
-    }
-
-    this.setState ({ showMenu: false });
-  }
-
-  mouseDownHandler = () => {
-    this.outSideClick = true;
-  }
-
-  mouseUpHandler = () => {
-    this.outSideClick = false;
-  }
 
   render() {
     return (
@@ -48,7 +27,8 @@ class Header extends React.Component {
       <div className="hamburger">
         <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="3x" /></a>
       </div>
-      {this.state.showMenu && <NavMenu onMouseDown={this.props.onMouseDown} onMouseUp={this.props.onMouseUp}/>}
+
+      {this.state.showMenu && <NavMenu />}
       </div>
     )
   }

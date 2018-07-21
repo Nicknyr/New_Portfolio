@@ -25,9 +25,29 @@
   p {
     font-size: 1.3em;
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
     line-height: 1.6;
     font-weight: 500;
     text-align: left;
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .me {
+    width: 30%;
+    height: auto;
+    float: left;
+    //background-color: yellow;
+    padding: 1em;
+  }
+
+  .description {
+    width: 70%;
+    height: auto;
+    float: right;
+    //background-color: red;
+    padding: 1em;
   }
 }

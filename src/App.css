@@ -532,13 +532,48 @@ pre {
     color: snow;
     background-color: snow; } }
 
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none; }
+  .menu-div {
+    display: block;
+    background-color: #222f3e;
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 3em;
+    height: 50vh; } }
+
 .footer {
   width: 100%;
-  height: 50vh;
+  height: auto;
   background-color: #222f3e;
   text-align: center; }
+  .footer .footer-container {
+    height: auto;
+    margin: auto;
+    width: 90%; }
+  .footer hr {
+    border: none;
+    height: .5px;
+    color: snow;
+    background-color: snow; }
   .footer .social-div {
-    padding-top: 3em; }
+    padding-top: 4em;
+    width: 100%;
+    margin: auto; }
+  .footer .footer-nav {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 4em;
+    width: 100%;
+    margin: auto; }
+  .footer .copyright {
+    padding-top: 7em;
+    padding-bottom: 1em; }
   .footer ul {
     list-style-type: none; }
     .footer ul li {
@@ -605,15 +640,28 @@ a {
   p {
     font-size: 1.3em;
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
     line-height: 1.6;
     font-weight: 500;
     text-align: left; } }
 
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .me {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 1em; }
+  .description {
+    width: 70%;
+    height: auto;
+    float: right;
+    padding: 1em; } }
+
 @media only screen and (min-width: 300px) {
   .project-section {
     width: 90%;
-    height: 300vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center; }
@@ -638,3 +686,55 @@ a {
     .project-section .project-image {
       max-width: 100%;
       max-height: 500px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .project-section {
+    width: 70%; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  ul li p, h3 {
+    display: none; }
+  .project-section {
+    width: 100%;
+    position: relative; }
+    .project-section ul {
+      width: 80%;
+      display: inline-block; }
+      .project-section ul li {
+        display: inline;
+        vertical-align: top; }
+  .image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: red; }
+  .project-image {
+    display: block;
+    width: 300px;
+    height: 300px; }
+  .overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0; }
+  .image-container:hover .overlay {
+    opacity: 1; }
+  .text {
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 300px;
+    font-size: 20px;
+    height: 100%; }
+  .overlay-hover {
+    height: 100%;
+    width: 0;
+    left: 0;
+    bottom: 0; }
+  .image-container:hover {
+    opacity: .5; }
+  .image-container:hover .overlay-hover {
+    height: 200px; } }
