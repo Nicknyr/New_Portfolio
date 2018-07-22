@@ -24,11 +24,16 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-      <div className="hamburger">
-        <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="3x" /></a>
+      <div className="mobile-header">
+        <div className="hamburger">
+          <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="3x" /></a>
+        </div>
+          {this.state.showMenu && <NavMenu />}
       </div>
 
-      {this.state.showMenu && <NavMenu />}
+      <div className="full-width-header">
+        <NavMenu />
+      </div>
       </div>
     )
   }

@@ -56,14 +56,15 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-  ul li p, h3 {
-    display: none;
-  }
-
-
   .project-section {
     width: 100%;
     position: relative;
+    height: auto;
+    margin-bottom: 20em;
+
+    ul li p, h3 {
+      display: none;
+    }
 
     ul {
       width: 80%;
@@ -101,7 +102,7 @@
     opacity: 1;
   }
 
-  .text {
+  .text  {
     color: white;
     position: absolute;
     bottom: 0%;

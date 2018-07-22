@@ -35,6 +35,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  .info-section {
+    padding-top: 10em;
+    width: 90%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10em;
+    text-align: center;
+  }
+
   .me {
     width: 30%;
     height: auto;
@@ -44,7 +54,7 @@
   }
 
   .description {
-    width: 70%;
+    width: 40%;
     height: auto;
     float: right;
     //background-color: red;

@@ -1,54 +1,109 @@
 $main: #48dbfb;
 $secondary: #222f3e;
 
-
-.footer {
-  width: 100%;
-  height: auto;
-  //clear: both;
-  background-color: $secondary;
-  text-align: center;
-
-  .footer-container {
+@media only screen and (min-width : 300px) {
+  .footer {
+    width: 100%;
     height: auto;
-    margin: auto;
-    width: 90%;
-    //background-color: yellow;
-  }
+    //clear: both;
+    background-color: $secondary;
+    text-align: center;
 
-  hr {
-    border: none;
-    height: .5px;
-    color: snow;
-    background-color: snow;
-  }
-
-  .social-div {
-    padding-top: 4em;
-    width: 100%;
-    margin: auto;
-  }
-
-  .footer-nav {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 4em;
-    width: 100%;
-    margin: auto;
-
-  }
-
-  .copyright {
-    padding-top: 7em;
-    padding-bottom: 1em;
-  }
-
-  ul {
-    list-style-type: none;
-
-    li {
-      padding: 1em;
+    .footer-container {
+      height: auto;
+      margin: auto;
+      width: 90%;
+      //background-color: yellow;
     }
-  }
 
+    hr {
+      border: none;
+      height: .5px;
+      color: snow;
+      background-color: snow;
+    }
+
+    .social-div {
+      padding-top: 4em;
+      width: 100%;
+      margin: auto;
+    }
+
+    .footer-nav {
+      text-transform: uppercase;
+      font-weight: bold;
+      padding-top: 4em;
+      width: 100%;
+      margin: auto;
+
+    }
+
+    .copyright {
+      padding-top: 7em;
+      padding-bottom: 1em;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        padding: 1em;
+      }
+    }
+
+  }
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  .footer {
+    text-align: center;
+
+    .footer-container {
+      height: auto;
+      margin: auto;
+      width: 90%;
+    }
+
+    hr {
+      border: none;
+      height: .5px;
+      color: snow;
+      background-color: snow;
+    }
+
+    .social-div {
+      width: 50%;
+      float: right;
+      height: 20em;
+      //background-color: yellow;
+    }
+
+    .footer-nav {
+      text-transform: uppercase;
+      font-weight: bold;
+      width: 50%;
+      height: 20em;
+      float: left;
+      //background-color: red;
+    }
+
+    .copyright {
+      padding-top: 7em;
+      padding-bottom: 1em;
+      clear: both;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        padding: 1em;
+      }
+    }
+
+  }
 }

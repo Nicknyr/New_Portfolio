@@ -8,6 +8,14 @@ $secondary: #222f3e;
     width: 100%;
   }
 
+  .mobile-header {
+    display: block;
+  }
+
+  .full-width-header {
+    display: none;
+  }
+
   .hamburger {
     position: absolute;
     z-index: 2;
@@ -53,6 +61,15 @@ $secondary: #222f3e;
     display: none;
   }
 
+  .mobile-header {
+    display: none;
+  }
+
+  .full-width-header {
+    display: block;
+  }
+
+
   .menu-div {
     display: block;
     background-color: $secondary;
@@ -61,7 +78,24 @@ $secondary: #222f3e;
     font-size: 1.4em;
     font-weight: bolder;
     text-transform: uppercase;
-    padding: 3em;
-    height: 50vh;
+    height: 2.8em;
+    padding: 0;
+    line-height: 2.8em;
+
+    hr {
+      display: none;
+    }
   }
+
+    .nav {
+      float: right;
+
+      li {
+        display: inline;
+        padding-right: 1.2em;
+      }
+    }
+
+
+
 }
