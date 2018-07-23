@@ -3,7 +3,7 @@
   .info-section {
     padding-top: 10em;
     width: 90%;
-    height: 150vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10em;
@@ -45,8 +45,16 @@
     text-align: center;
   }
 
+  .name-title {
+    h1, h2 {
+      display: inline-block;
+      padding: 1em;
+    }
+  }
+
+
   .me {
-    width: 30%;
+    width: 40%;
     height: auto;
     float: left;
     //background-color: yellow;
@@ -54,10 +62,15 @@
   }
 
   .description {
-    width: 40%;
+    width: 60%;
     height: auto;
     float: right;
     //background-color: red;
     padding: 1em;
+
+    p {
+      width: 80%;
+      margin: auto;
+    }
   }
 }

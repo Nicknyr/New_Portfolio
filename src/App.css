@@ -573,11 +573,24 @@ pre {
       height: auto;
       margin: auto;
       width: 90%; }
+    .footer h3 {
+      padding: 1em; }
     .footer hr {
       border: none;
       height: .5px;
+      width: 80%;
       color: snow;
       background-color: snow; }
+    .footer .contact-div {
+      padding-top: 4em;
+      width: 100%;
+      margin: auto; }
+      .footer .contact-div ul {
+        text-align: left;
+        display: inline-block;
+        font-style: italic; }
+        .footer .contact-div ul li {
+          padding: .3em; }
     .footer .social-div {
       padding-top: 4em;
       width: 100%;
@@ -588,6 +601,9 @@ pre {
       padding-top: 4em;
       width: 100%;
       margin: auto; }
+      .footer .footer-nav ul {
+        text-align: left;
+        display: inline-block; }
     .footer .copyright {
       padding-top: 7em;
       padding-bottom: 1em; }
@@ -609,20 +625,33 @@ pre {
       height: .5px;
       color: snow;
       background-color: snow; }
+    .footer .contact-div {
+      width: 33%;
+      float: left;
+      height: 25em;
+      padding-top: .5em; }
     .footer .social-div {
-      width: 50%;
-      float: right;
-      height: 20em; }
+      width: 33%;
+      float: left;
+      height: 25em;
+      padding-top: .5em; }
     .footer .footer-nav {
       text-transform: uppercase;
       font-weight: bold;
-      width: 50%;
-      height: 20em;
-      float: left; }
+      width: 33%;
+      height: 25em;
+      float: left;
+      padding-top: .5em; }
     .footer .copyright {
-      padding-top: 7em;
+      padding-top: 1em;
       padding-bottom: 1em;
-      clear: both; }
+      clear: both;
+      /*hr {
+        width: 80%;
+        height: .5px;
+        background-color: snow;
+      }
+      */ }
     .footer ul {
       list-style-type: none; }
       .footer ul li {
@@ -656,7 +685,7 @@ a {
   font-family: 'Oswald', sans-serif; }
   a:hover {
     color: #feca57;
-    text-decoration: none; }
+    text-decoration: underline; }
 
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
@@ -673,7 +702,7 @@ a {
   .info-section {
     padding-top: 10em;
     width: 90%;
-    height: 150vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10em;
@@ -704,16 +733,22 @@ a {
     margin-right: auto;
     margin-bottom: 10em;
     text-align: center; }
+  .name-title h1, .name-title h2 {
+    display: inline-block;
+    padding: 1em; }
   .me {
-    width: 30%;
+    width: 40%;
     height: auto;
     float: left;
     padding: 1em; }
   .description {
-    width: 40%;
+    width: 60%;
     height: auto;
     float: right;
-    padding: 1em; } }
+    padding: 1em; }
+    .description p {
+      width: 80%;
+      margin: auto; } }
 
 @media only screen and (min-width: 300px) {
   .project-section {
@@ -766,14 +801,13 @@ a {
         vertical-align: top; }
   .image-container {
     position: relative;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    background-color: red; }
+    width: 250px;
+    height: 250px;
+    display: inline-block; }
   .project-image {
     display: block;
-    width: 300px;
-    height: 300px; }
+    width: 250px;
+    height: 250px; }
   .overlay {
     position: absolute;
     transition: all .3s ease;
@@ -785,7 +819,7 @@ a {
     position: absolute;
     bottom: 0%;
     left: 0%;
-    width: 300px;
+    width: 250px;
     font-size: 20px;
     height: 100%; }
   .overlay-hover {

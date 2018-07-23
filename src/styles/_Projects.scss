@@ -80,16 +80,15 @@
 
   .image-container {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     display: inline-block;
-    background-color: red;
   }
 
   .project-image {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 
   .overlay {
@@ -108,7 +107,7 @@
     bottom: 0%;
     left: 0%;
     //transform: translate(-50%, -50%);
-    width: 300px;
+    width: 250px;
     //text-align: center;
     //margin: auto;
     font-size: 20px;

@@ -6,8 +6,10 @@ import MyPic from './images/me.png';
 const Info = () => {
   return (
     <div className="info-section" id="intro">
-      <h1>Nick Kinlen</h1>
-      <h2>Front-end Developer</h2>
+      <div className="name-title">
+        <h1>Nick Kinlen</h1>
+        <h2>Front-end Developer</h2>
+      </div>
         <div className="me">
           <img src={MyPic} className="my-image"/>
         </div>

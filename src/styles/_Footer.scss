@@ -16,11 +16,32 @@ $secondary: #222f3e;
       //background-color: yellow;
     }
 
+    h3 {
+      padding: 1em;
+    }
+
     hr {
       border: none;
       height: .5px;
+      width: 80%;
       color: snow;
       background-color: snow;
+    }
+
+    .contact-div {
+      padding-top: 4em;
+      width: 100%;
+      margin: auto;
+
+      ul {
+        text-align: left;
+        display: inline-block;
+        font-style: italic;
+
+        li {
+          padding: .3em;
+        }
+      }
     }
 
     .social-div {
@@ -35,6 +56,11 @@ $secondary: #222f3e;
       padding-top: 4em;
       width: 100%;
       margin: auto;
+
+      ul {
+        text-align: left;
+        display: inline-block;
+      }
 
     }
 
@@ -75,26 +101,42 @@ $secondary: #222f3e;
       background-color: snow;
     }
 
+    .contact-div {
+      width: 33%;
+      float: left;
+      height: 25em;
+      padding-top: .5em;
+    }
+
+
     .social-div {
-      width: 50%;
-      float: right;
-      height: 20em;
-      //background-color: yellow;
+      width: 33%;
+      float: left;
+      height: 25em;
+      padding-top: .5em;
     }
 
     .footer-nav {
       text-transform: uppercase;
       font-weight: bold;
-      width: 50%;
-      height: 20em;
+      width: 33%;
+      height: 25em;
       float: left;
-      //background-color: red;
+      padding-top: .5em;
     }
 
+
     .copyright {
-      padding-top: 7em;
+      padding-top: 1em;
       padding-bottom: 1em;
       clear: both;
+
+    /*hr {
+        width: 80%;
+        height: .5px;
+        background-color: snow;
+      }
+      */
     }
 
     ul {
