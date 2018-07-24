@@ -509,6 +509,8 @@ pre {
     width: 100%; }
   .mobile-header {
     display: block; }
+  .logo-container {
+    display: none; }
   .full-width-header {
     display: none; }
   .hamburger {
@@ -544,6 +546,12 @@ pre {
     display: none; }
   .full-width-header {
     display: block; }
+  .logo-container {
+    width: auto;
+    padding-left: 2em;
+    float: left;
+    display: inline;
+    height: 2.8em; }
   .menu-div {
     display: block;
     background-color: #222f3e;
@@ -635,6 +643,8 @@ pre {
       float: left;
       height: 25em;
       padding-top: .5em; }
+    .footer .social-container li {
+      display: inline; }
     .footer .footer-nav {
       text-transform: uppercase;
       font-weight: bold;

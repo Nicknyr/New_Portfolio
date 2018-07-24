@@ -12,6 +12,10 @@ $secondary: #222f3e;
     display: block;
   }
 
+  .logo-container {
+    display: none;
+  }
+
   .full-width-header {
     display: none;
   }
@@ -69,6 +73,13 @@ $secondary: #222f3e;
     display: block;
   }
 
+  .logo-container {
+    width: auto;
+    padding-left: 2em;
+    float: left;
+    display: inline;
+    height: 2.8em;
+  }
 
   .menu-div {
     display: block;
