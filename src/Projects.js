@@ -79,6 +79,28 @@ const Projects = () => {
               </div>
             </a>
           </li>
+          <li>
+            <h3>Wealth Of European Nations Choropleth Map</h3>
+            <a href="https://eurogdp.herokuapp.com/">
+              <div className="image-container">
+                <img src={EuroGDP} className="project-image"/>
+                  <div className="overlay overlay-hover">
+                    <div className="text">A beautiful choropleth map of Europe that uses Leaflet.js and GeoJSON data to plot GDP by nation</div>
+                  </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <h3>Wealth Of European Nations Choropleth Map</h3>
+            <a href="https://eurogdp.herokuapp.com/">
+              <div className="image-container">
+                <img src={EuroGDP} className="project-image"/>
+                  <div className="overlay overlay-hover">
+                    <div className="text">A beautiful choropleth map of Europe that uses Leaflet.js and GeoJSON data to plot GDP by nation</div>
+                  </div>
+              </div>
+            </a>
+          </li>
         </ul>
     </div>
   )

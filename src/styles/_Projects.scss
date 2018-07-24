@@ -63,17 +63,19 @@
     margin-bottom: 20em;
     z-index: 1;
 
+
     ul li p, h3 {
       display: none;
     }
 
     ul {
-      width: 80%;
+      width: 100%;
       display: inline-block;
 
       li {
-        display: inline;
+        display: inline-block;
         vertical-align: top;
+        padding: .5em;
       }
     }
   }
@@ -84,6 +86,7 @@
     width: 250px;
     height: 250px;
     display: inline-block;
+    background-color: #D3D3D3;
   }
 
   .project-image {
@@ -113,6 +116,10 @@
     //margin: auto;
     font-size: 20px;
     height: 100%;
+    vertical-align: middle;
+    //height: 250px;
+    background-color: #242424;
+    opacity: .8;
   }
 
   .overlay-hover {
@@ -123,7 +130,8 @@
   }
 
   .image-container:hover {
-    opacity: .5;
+    //opacity: .5;
+    opacity: 1;
   }
 
   .image-container:hover .overlay-hover {

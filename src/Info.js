@@ -10,7 +10,7 @@ const Info = () => {
         <h1>My name is Nick and I am a front-end developer</h1>
       </div>
         <div className="me">
-          <img src={MyPic} className="my-image" height="150" width="150"/>
+          <img src={MyPic} className="my-image" height="125" width="125"/>
         </div>
 
         <div className="description">

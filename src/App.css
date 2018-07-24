@@ -721,7 +721,7 @@ a {
     margin-right: auto;
     margin-bottom: 10em;
     text-align: center; }
-  h2 {
+  h1 {
     font-style: italic; }
   .my-image {
     max-width: 100%;
@@ -733,7 +733,7 @@ a {
     font-size: 1.3em;
     width: 100%;
     padding-top: 1em;
-    line-height: 1.6;
+    line-height: 1.8;
     font-weight: 500;
     text-align: left; } }
 
@@ -756,13 +756,11 @@ a {
 */
   .me {
     width: 100%;
-    height: auto;
-    padding: 1em; }
+    height: auto; }
   .description {
     width: 70%;
     height: auto;
-    margin: auto;
-    padding: 1em; }
+    margin: auto; }
     .description p {
       margin: auto; } }
 
@@ -811,16 +809,18 @@ a {
     .project-section ul li p, .project-section h3 {
       display: none; }
     .project-section ul {
-      width: 80%;
+      width: 100%;
       display: inline-block; }
       .project-section ul li {
-        display: inline;
-        vertical-align: top; }
+        display: inline-block;
+        vertical-align: top;
+        padding: .5em; }
   .image-container {
     position: relative;
     width: 250px;
     height: 250px;
-    display: inline-block; }
+    display: inline-block;
+    background-color: #D3D3D3; }
   .project-image {
     display: block;
     width: 250px;
@@ -838,13 +838,16 @@ a {
     left: 0%;
     width: 250px;
     font-size: 20px;
-    height: 100%; }
+    height: 100%;
+    vertical-align: middle;
+    background-color: #242424;
+    opacity: .8; }
   .overlay-hover {
     height: 100%;
     width: 0;
     left: 0;
     bottom: 0; }
   .image-container:hover {
-    opacity: .5; }
+    opacity: 1; }
   .image-container:hover .overlay-hover {
     height: 200px; } }
