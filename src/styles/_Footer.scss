@@ -104,7 +104,7 @@ $secondary: #222f3e;
     .contact-div {
       width: 33%;
       float: left;
-      height: 25em;
+      height: auto;
       padding-top: .5em;
     }
 
@@ -112,7 +112,7 @@ $secondary: #222f3e;
     .social-div {
       width: 33%;
       float: left;
-      height: 25em;
+      height: auto;
       padding-top: .5em;
     }
 
@@ -124,14 +124,14 @@ $secondary: #222f3e;
       text-transform: uppercase;
       font-weight: bold;
       width: 33%;
-      height: 25em;
+      height: auto;
       float: left;
       padding-top: .5em;
     }
 
 
     .copyright {
-      padding-top: 1em;
+      padding-top: 2em;
       padding-bottom: 1em;
       clear: both;
 
@@ -147,7 +147,7 @@ $secondary: #222f3e;
       list-style-type: none;
 
       li {
-        padding: 1em;
+        padding: .4em;
       }
     }
 

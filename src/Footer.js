@@ -10,7 +10,7 @@ const Footer = () => {
           {/*<hr />*/}
           <ul>
             <li>(845) 800-0609</li>
-            <li>nick_kinlen@hotmail.com</li>
+            <li><a href="mailto:nick_kinlen@hotmail.com">nick_kinlen@hotmail.com</a></li>
           </ul>
         </div>
         <div className="social-div">
@@ -19,17 +19,17 @@ const Footer = () => {
           <ul className="social-container">
             <li>
               <a href="https://github.com/Nicknyr">
-                <FontAwesomeIcon icon={['fab', 'github']} size="3x"/>
+                <FontAwesomeIcon icon={['fab', 'github']} size="2x"/>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/nicholas-kinlen-b71393a1/">
-                <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/>
+                <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"/>
               </a>
             </li>
             <li>
               <a href="https://stackoverflow.com/users/3875620/nick-kinlen">
-                <FontAwesomeIcon icon={['fab', 'stack-overflow']} size="3x"/>
+                <FontAwesomeIcon icon={['fab', 'stack-overflow']} size="2x"/>
               </a>
             </li>
           </ul>

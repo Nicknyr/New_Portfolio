@@ -521,7 +521,7 @@ pre {
     background-color: #222f3e;
     text-align: center;
     list-style-type: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bolder;
     text-transform: uppercase;
     padding: 3em;
@@ -545,7 +545,11 @@ pre {
   .mobile-header {
     display: none; }
   .full-width-header {
-    display: block; }
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2; }
   .logo-container {
     width: auto;
     padding-left: 2em;
@@ -557,7 +561,7 @@ pre {
     background-color: #222f3e;
     text-align: center;
     list-style-type: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bolder;
     text-transform: uppercase;
     height: 2.8em;
@@ -636,12 +640,12 @@ pre {
     .footer .contact-div {
       width: 33%;
       float: left;
-      height: 25em;
+      height: auto;
       padding-top: .5em; }
     .footer .social-div {
       width: 33%;
       float: left;
-      height: 25em;
+      height: auto;
       padding-top: .5em; }
     .footer .social-container li {
       display: inline; }
@@ -649,11 +653,11 @@ pre {
       text-transform: uppercase;
       font-weight: bold;
       width: 33%;
-      height: 25em;
+      height: auto;
       float: left;
       padding-top: .5em; }
     .footer .copyright {
-      padding-top: 1em;
+      padding-top: 2em;
       padding-bottom: 1em;
       clear: both;
       /*hr {
@@ -665,7 +669,7 @@ pre {
     .footer ul {
       list-style-type: none; }
       .footer ul li {
-        padding: 1em; } }
+        padding: .4em; } }
 
 .content {
   width: 90%;
@@ -681,13 +685,13 @@ h1, h2, h3 {
   text-transform: uppercase; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 2.4em; }
 
 h2 {
-  font-size: 2.5em; }
+  font-size: 2em; }
 
 h3 {
-  font-size: 1.8em; }
+  font-size: 1.4em; }
 
 a {
   color: snow;
@@ -743,21 +747,23 @@ a {
     margin-right: auto;
     margin-bottom: 10em;
     text-align: center; }
-  .name-title h1, .name-title h2 {
-    display: inline-block;
-    padding: 1em; }
+  /*  .name-title {
+    h1, h2 {
+      display: inline-block;
+      padding: 1em;
+    }
+  }
+*/
   .me {
-    width: 40%;
+    width: 100%;
     height: auto;
-    float: left;
     padding: 1em; }
   .description {
-    width: 60%;
+    width: 70%;
     height: auto;
-    float: right;
+    margin: auto;
     padding: 1em; }
     .description p {
-      width: 80%;
       margin: auto; } }
 
 @media only screen and (min-width: 300px) {
@@ -800,7 +806,8 @@ a {
     width: 100%;
     position: relative;
     height: auto;
-    margin-bottom: 20em; }
+    margin-bottom: 20em;
+    z-index: 1; }
     .project-section ul li p, .project-section h3 {
       display: none; }
     .project-section ul {

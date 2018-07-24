@@ -30,7 +30,7 @@ $secondary: #222f3e;
     background-color: $secondary;
     text-align: center;
     list-style-type: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bolder;
     text-transform: uppercase;
     padding: 3em;
@@ -71,6 +71,10 @@ $secondary: #222f3e;
 
   .full-width-header {
     display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
   }
 
   .logo-container {
@@ -86,7 +90,7 @@ $secondary: #222f3e;
     background-color: $secondary;
     text-align: center;
     list-style-type: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bolder;
     text-transform: uppercase;
     height: 2.8em;

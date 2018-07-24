@@ -45,31 +45,31 @@
     text-align: center;
   }
 
-  .name-title {
+/*  .name-title {
     h1, h2 {
       display: inline-block;
       padding: 1em;
     }
   }
-
+*/
 
   .me {
-    width: 40%;
+    width: 100%;
     height: auto;
-    float: left;
+    //float: left;
     //background-color: yellow;
     padding: 1em;
   }
 
   .description {
-    width: 60%;
+    width: 70%;
     height: auto;
-    float: right;
+    margin: auto;
     //background-color: red;
     padding: 1em;
 
     p {
-      width: 80%;
+      //width: 80%;
       margin: auto;
     }
   }

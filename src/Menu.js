@@ -9,7 +9,7 @@ const NavMenu = () => {
   return (
     <div className="menu-div">
       <div className="logo-container">
-        <img src={Logo} height="100%" width="175"/>
+        <a href="/"><img src={Logo} height="100%" width="175"/></a>
       </div>
       <ul className="nav">
         <li>

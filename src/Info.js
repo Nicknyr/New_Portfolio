@@ -7,11 +7,10 @@ const Info = () => {
   return (
     <div className="info-section" id="intro">
       <div className="name-title">
-        <h1>Nick Kinlen</h1>
-        <h2>Front-end Developer</h2>
+        <h1>My name is Nick and I am a front-end developer</h1>
       </div>
         <div className="me">
-          <img src={MyPic} className="my-image"/>
+          <img src={MyPic} className="my-image" height="150" width="150"/>
         </div>
 
         <div className="description">
