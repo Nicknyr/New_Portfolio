@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import Placeholder from './images/placeholder.png';
+import SteemProject from './images/steem-cropped.png';
 import EuroGDP from './images/euro-medium.png';
 import SpaceStations from './images/space.png';
 import BitcoinChart from './images/bitcoin-medium.png';
 import Pomodoro from './images/pomodoro-medium.png';
 import USGDP from './images/us-gdp-medium.png';
-import Resume from './images/resume-medium.png';
+import Resume from './images/resume-cropped.png';
+import TicTacToe from './images/tic-tac-toe-medium.png';
+import Calculator from './images/calculator-medium.png';
 
 const Projects = () => {
   return (
@@ -13,6 +16,17 @@ const Projects = () => {
         <h2>Projects</h2>
         <hr />
         <ul>
+          <li>
+            <h3>Steem Blockchain Social Media Web App</h3>
+            <a href="https://eurogdp.herokuapp.com/">
+              <div className="image-container">
+                <img src={SteemProject} className="project-image"/>
+                  <div className="overlay overlay-hover">
+                    <div className="text">React/Redux webapp that uses the dsteem API to pull social media post data from the Steem blockchain</div>
+                  </div>
+              </div>
+            </a>
+          </li>
           <li>
             <h3>Wealth Of European Nations Choropleth Map</h3>
             <a href="https://eurogdp.herokuapp.com/">
@@ -80,23 +94,23 @@ const Projects = () => {
             </a>
           </li>
           <li>
-            <h3>Wealth Of European Nations Choropleth Map</h3>
+            <h3>Tic-Tac-Toe Game</h3>
             <a href="https://eurogdp.herokuapp.com/">
               <div className="image-container">
-                <img src={EuroGDP} className="project-image"/>
+                <img src={TicTacToe} className="project-image"/>
                   <div className="overlay overlay-hover">
-                    <div className="text">A beautiful choropleth map of Europe that uses Leaflet.js and GeoJSON data to plot GDP by nation</div>
+                    <div className="text">A classic Tic-Tac-Toe game built with JQuery</div>
                   </div>
               </div>
             </a>
           </li>
           <li>
-            <h3>Wealth Of European Nations Choropleth Map</h3>
+            <h3>Calculator</h3>
             <a href="https://eurogdp.herokuapp.com/">
               <div className="image-container">
-                <img src={EuroGDP} className="project-image"/>
+                <img src={Calculator} className="project-image"/>
                   <div className="overlay overlay-hover">
-                    <div className="text">A beautiful choropleth map of Europe that uses Leaflet.js and GeoJSON data to plot GDP by nation</div>
+                    <div className="text">A calculator built with JQuery</div>
                   </div>
               </div>
             </a>
