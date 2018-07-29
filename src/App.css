@@ -753,7 +753,7 @@ a {
   .info-section {
     padding-top: 10em;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10em;
@@ -888,12 +888,13 @@ a {
     height: 80vh; }
   .left {
     width: 50%;
-    float: left; }
+    float: left;
+    padding-top: 5em; }
     .left h2 {
-      padding-top: 2.5em;
+      padding: 0;
       font-size: 2.5em; }
     .left p {
-      width: 80%;
+      width: 50%;
       margin: auto; }
   .right {
     width: 50%;
@@ -907,22 +908,20 @@ a {
     text-align: left;
     margin: auto; }
     form label, form textarea, form input {
-      margin: auto; }
-  .name {
-    display: inline-block;
-    margin: 1em;
-    width: auto; }
-    .name input[type=text] {
-      padding: 5px;
-      font-size: 1.2em; }
-  .email {
-    display: inline-block;
-    width: 90%;
-    margin: 1em; }
-    .email input[type=text] {
-      width: auto;
-      padding: 5px;
-      font-size: 1.2em; }
+      margin-bottom: 1em;
+      -webkit-box-sizing: border-box;
+      /* For legacy WebKit based browsers */
+      -moz-box-sizing: border-box;
+      /* For legacy (Firefox <29) Gecko based browsers */
+      box-sizing: border-box;
+      width: 100%; }
+  .name input[type=text] {
+    padding: 5px;
+    font-size: 1.2em;
+    margin-right: .5em; }
+  .email input[type=text] {
+    padding: 5px;
+    font-size: 1.2em; }
   button {
     height: 2.5em;
     width: 10em;
@@ -934,11 +933,6 @@ a {
     border-radius: 5px;
     color: snow; }
   .message-box {
-    font-size: 1.2em;
-    padding: 5px; }
+    font-size: 1.2em; }
     .message-box textarea {
       width: 100%; } }
-
-@media only screen and (min-width: 768px) {
-  .email input[type=text] {
-    width: 100%; } }

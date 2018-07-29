@@ -3,13 +3,14 @@ import Placeholder from './images/placeholder.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import MyPic from './images/me.png';
 //import Nodes from './images/blue-nodes.jpg';
-import Nodes from './images/nodes-no-color.jpg';
+//import Nodes from './images/nodes-no-color.jpg';
+import Nodes from './images/nodes.jpg';
 
 const Info = () => {
   return (
     <div className="info-section" id="intro">
       <div className="nodes">
-        <img src={Nodes} />
+        {/*<img src={Nodes} />*/}
       </div>
       <div className="name-title">
         <h1>My name is Nick and I am a front-end developer</h1>

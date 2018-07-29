@@ -10,32 +10,28 @@
     margin: auto;
 
     label, textarea, input{
-      margin: auto;
+      margin-bottom: 1em;
+      -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+      -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+      box-sizing: border-box;
+      width: 100%;
     }
 
   }
 
   .name {
-    display: inline-block;
-    margin: 1em;
-    width: auto;
-
     input[type=text] {
       padding: 5px;
       font-size: 1.2em;
+      margin-right: .5em;
+
     }
 
   }
 
   .email {
-    //width: auto;
-    display: inline-block;
-    width: 90%;
-    margin: 1em;
-
     input[type=text] {
       //display: block;
-      width: auto;
       padding: 5px;
       font-size: 1.2em;
     }
@@ -56,7 +52,6 @@
 
   .message-box {
     font-size: 1.2em;
-    padding: 5px;
 
     textarea {
       width: 100%;
@@ -66,9 +61,12 @@
 }
 
 @media only screen and (min-width : 768px) {
-  .email {
-    input[type=text] {
-      width: 100%;
+  form {
+
+    label, textarea, input{
+      //width: 50%;
     }
+
   }
+
 }
