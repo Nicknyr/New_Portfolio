@@ -102,12 +102,48 @@ $secondary: #222f3e;
     }
   }
 
+
+  @mixin underline-link {
+    a {
+    position: relative;
+    //display: inline-block;
+    color: snow;
+    font-family: 'Oswald', sans-serif;
+
+    &:hover {
+      text-decoration: none;
+      color: gold;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #feca57;
+      transform-origin: bottom center;
+      transition: transform .25s ease-out;
+    }
+
+    &:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
+
+    }
+
+  }
+
     .nav {
       float: right;
 
       li {
         display: inline;
         padding-right: 1.2em;
+        @include underline-link;
       }
     }
 
