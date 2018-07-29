@@ -10,6 +10,21 @@
     text-align: center;
   }
 
+  .nodes {
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.1;
+
+    img {
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+
   h1 {
     font-style: italic;
   }
@@ -37,13 +52,15 @@
 @media only screen and (min-width : 768px) {
   .info-section {
     padding-top: 10em;
-    width: 90%;
-    height: 100vh;
+    width: 100%;
+    height: 150vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10em;
     text-align: center;
   }
+
+
 
 /*  .name-title {
     h1, h2 {
@@ -56,13 +73,10 @@
   .me {
     width: 100%;
     height: auto;
-    //float: left;
-    //background-color: yellow;
-    //padding: 1em;
   }
 
   .description {
-    width: 70%;
+    width: 50%;
     height: auto;
     margin: auto;
     //background-color: red;
@@ -71,6 +85,7 @@
     p {
       //width: 80%;
       margin: auto;
+      font-weight: bolder;
     }
   }
 }

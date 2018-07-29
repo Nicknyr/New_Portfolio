@@ -1,0 +1,74 @@
+
+
+
+@media only screen and (min-width : 300px) {
+  form {
+    height: 70vh;
+    width: 90%;
+    padding-top: 5em;
+    text-align: left;
+    margin: auto;
+
+    label, textarea, input{
+      margin: auto;
+    }
+
+  }
+
+  .name {
+    display: inline-block;
+    margin: 1em;
+    width: auto;
+
+    input[type=text] {
+      padding: 5px;
+      font-size: 1.2em;
+    }
+
+  }
+
+  .email {
+    //width: auto;
+    display: inline-block;
+    width: 90%;
+    margin: 1em;
+
+    input[type=text] {
+      //display: block;
+      width: auto;
+      padding: 5px;
+      font-size: 1.2em;
+    }
+  }
+
+
+  button {
+    height: 2.5em;
+    width: 10em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(84, 242, 176);
+    border: none;
+    border-radius: 5px;
+    color: snow;
+  }
+
+  .message-box {
+    font-size: 1.2em;
+    padding: 5px;
+
+    textarea {
+      width: 100%;
+    }
+  }
+
+}
+
+@media only screen and (min-width : 768px) {
+  .email {
+    input[type=text] {
+      width: 100%;
+    }
+  }
+}

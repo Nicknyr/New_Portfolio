@@ -518,7 +518,7 @@ pre {
     z-index: 2;
     padding: 1em; }
   .menu-div {
-    background-color: #222f3e;
+    background-color: #013243;
     text-align: center;
     list-style-type: none;
     font-size: 1.2em;
@@ -579,7 +579,7 @@ pre {
   .footer {
     width: 100%;
     height: auto;
-    background-color: #222f3e;
+    background-color: #013243;
     text-align: center; }
     .footer .footer-container {
       height: auto;
@@ -676,7 +676,7 @@ pre {
   margin: auto; }
 
 body {
-  background-color: #48dbfb;
+  background-color: #19B5FE;
   color: snow;
   font-family: 'Roboto', sans-serif; }
 
@@ -721,6 +721,17 @@ a {
     margin-right: auto;
     margin-bottom: 10em;
     text-align: center; }
+  .nodes {
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.1; }
+    .nodes img {
+      max-width: 100%;
+      height: 100%; }
   h1 {
     font-style: italic; }
   .my-image {
@@ -741,8 +752,8 @@ a {
 @media only screen and (min-width: 768px) {
   .info-section {
     padding-top: 10em;
-    width: 90%;
-    height: 100vh;
+    width: 100%;
+    height: 150vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10em;
@@ -758,11 +769,12 @@ a {
     width: 100%;
     height: auto; }
   .description {
-    width: 70%;
+    width: 50%;
     height: auto;
     margin: auto; }
     .description p {
-      margin: auto; } }
+      margin: auto;
+      font-weight: bolder; } }
 
 @media only screen and (min-width: 300px) {
   .project-section {
@@ -851,3 +863,82 @@ a {
     opacity: 1; }
   .image-container:hover .overlay-hover {
     height: 200px; } }
+
+@media only screen and (min-width: 300px) {
+  .contact-container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, #19B5FE, #22A7F0); }
+  .left {
+    width: 100%;
+    height: 20vh; }
+    .left h2 {
+      text-align: center;
+      font-size: 2.5em;
+      padding: .5em; }
+    .left p {
+      width: 80%;
+      margin: auto; }
+  .right {
+    width: 100%;
+    height: 80vh; } }
+
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    height: 80vh; }
+  .left {
+    width: 50%;
+    float: left; }
+    .left h2 {
+      padding-top: 2.5em;
+      font-size: 2.5em; }
+    .left p {
+      width: 80%;
+      margin: auto; }
+  .right {
+    width: 50%;
+    float: right; } }
+
+@media only screen and (min-width: 300px) {
+  form {
+    height: 70vh;
+    width: 90%;
+    padding-top: 5em;
+    text-align: left;
+    margin: auto; }
+    form label, form textarea, form input {
+      margin: auto; }
+  .name {
+    display: inline-block;
+    margin: 1em;
+    width: auto; }
+    .name input[type=text] {
+      padding: 5px;
+      font-size: 1.2em; }
+  .email {
+    display: inline-block;
+    width: 90%;
+    margin: 1em; }
+    .email input[type=text] {
+      width: auto;
+      padding: 5px;
+      font-size: 1.2em; }
+  button {
+    height: 2.5em;
+    width: 10em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #54f2b0;
+    border: none;
+    border-radius: 5px;
+    color: snow; }
+  .message-box {
+    font-size: 1.2em;
+    padding: 5px; }
+    .message-box textarea {
+      width: 100%; } }
+
+@media only screen and (min-width: 768px) {
+  .email input[type=text] {
+    width: 100%; } }
