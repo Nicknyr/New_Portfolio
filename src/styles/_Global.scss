@@ -14,12 +14,20 @@ $secondary: #222f3e;
 body {
   background-color: #19B5FE;
   color: snow;
-  font-family: 'Roboto', sans-serif;
+  //font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+  //font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  //font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
+  //font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+
 }
 
 h1, h2, h3 {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  //font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  //text-transform: uppercase;
+  //font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+
 }
 
 h1 {
@@ -37,6 +45,8 @@ h3 {
 a {
   color: snow;
   text-decoration: none;
+  //font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
 
   &:hover {
     color: #feca57;
