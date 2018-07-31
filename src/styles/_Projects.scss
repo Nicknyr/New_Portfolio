@@ -8,6 +8,18 @@
     margin-right: auto;
     text-align: center;
 
+    a {
+      text-decoration: none;
+    }
+
+    .text  {
+      color: white;
+      font-size: 1.3em;
+      text-align: left;
+      padding: .5em;
+      //background-color: red;
+    }
+
     h3 {
       margin: auto;
       padding: 1em;

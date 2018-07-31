@@ -27,24 +27,17 @@ $secondary: #222f3e;
   .hamburger {
     position: absolute;
     z-index: 2;
-    //padding: .5em;
-    border: 1px solid white;
-    height: 4em;
-    display: inline-block;
+    margin: .5em;
+    border: .5px solid snow;
+    height: 3em;
     //background-color: red;
 
-    a {
-      //background-color: yellow;
-      line-height: 4em;
-      //height: 4em;
-    }
-
     span {
-      background-color: green;
-      height: 4em;
-      margin-left: 1em;
-      font-size: 1.2em;
-      vertical-align: middle;
+      //background-color: green;
+      margin: .5em;
+      font-size: 1em;
+      line-height: 3em;
+      text-transform: uppercase;
     }
   }
 
@@ -134,7 +127,7 @@ $secondary: #222f3e;
 
     &:hover {
       text-decoration: none;
-      color: gold;
+      color: #feca57;
     }
 
     &::before {

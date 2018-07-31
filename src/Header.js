@@ -28,7 +28,7 @@ class Header extends React.Component {
       <div className="mobile-header">
         <div className="hamburger">
           <span>
-            <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="2x" /></a>
+            <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="1x" /></a>
           </span>
           <span>
             Menu

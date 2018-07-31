@@ -23,7 +23,7 @@ class App extends Component {
         <div className="content">
           <Projects />
         </div>
-        <Contact />
+          <Contact />
         <Footer />
       </div>
     );
