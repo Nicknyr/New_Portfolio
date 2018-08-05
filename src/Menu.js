@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from './images/centered.png';
 import SpaceStations from './images/space.png';
+import Scrollchor from 'react-scrollchor';
 
-
+<Scrollchor to="#features" className="nav-link">Features</Scrollchor>
 
 const NavMenu = () => {
   return (
@@ -13,19 +14,19 @@ const NavMenu = () => {
       </div>
       <ul className="nav">
         <li>
-          <a href="#intro">About</a>
+          <Scrollchor to="#intro">About</Scrollchor>
         </li>
         <hr/>
         <li>
-          <a href="#portfolio">Portfolio</a>
+        <Scrollchor to="#portfolio">Portfolio</Scrollchor>
         </li>
         <hr/>
         <li>
-          <a href="/">Blog</a>
+          <Scrollchor to="#contact">Blog</Scrollchor>
         </li>
         <hr/>
         <li>
-          <a href="/">Contact</a>
+          <Scrollchor to="#contact">Contact</Scrollchor>
         </li>
       </ul>
     </div>

@@ -5,7 +5,7 @@ import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="left">
         <h2>Contact Me</h2>
         <p>Interested in hiring me? Drop me a line or message me on <a href="https://www.linkedin.com/in/nicholas-kinlen/">LinkedIn</a>.</p>
