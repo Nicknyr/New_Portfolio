@@ -5,6 +5,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
 import NavMenu from './Menu';
 import Logo from './images/centered.png';
+import { slide as Menu } from 'react-burger-menu'
 
 
 class Header extends React.Component {
@@ -25,7 +26,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-      <div className="mobile-header">
+      <Menu>
         <div className="hamburger">
           <span>
             <a onClick={this.onClick}><FontAwesomeIcon icon={faBars} size="1x" /></a>
@@ -35,7 +36,7 @@ class Header extends React.Component {
           </span>
         </div>
           {this.state.showMenu && <NavMenu />}
-      </div>
+      </Menu>
 
       <div className="full-width-header">
         <NavMenu />

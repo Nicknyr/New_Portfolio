@@ -18,7 +18,7 @@ const Projects = () => {
         <ul>
           <li>
             <h3>Steem Blockchain Social Media Web App</h3>
-            <a href="https://eurogdp.herokuapp.com/">
+            <a href="https://steem-project.herokuapp.com/">
               <div className="image-container">
                 <img src={SteemProject} className="project-image"/>
                   <div className="overlay overlay-hover">
@@ -40,7 +40,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>NASA & SpaceX Facilities Map</h3>
-            <a href="#">
+            <a href="https://launchfacilities.herokuapp.com/">
               <div className="image-container">
                 <img src={SpaceStations} className="project-image"/>
                   <div className="overlay overlay-hover">
@@ -51,7 +51,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>D3.js Bitcoin line chart</h3>
-            <a href="#">
+            <a href="https://codepen.io/nick_kinlen/full/yEYmxy/">
               <div className="image-container">
                 <img src={BitcoinChart} className="project-image"/>
                   <div className="overlay overlay-hover">
@@ -62,7 +62,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>PSD To HTML/CSS Resume Project</h3>
-            <a href="#">
+            <a href="https://psdresume.surge.sh/">
               <div className="image-container">
                 <img src={Resume} className="project-image"/>
                   <div className="overlay overlay-hover">
@@ -73,7 +73,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>Pomodoro Clock</h3>
-            <a href="#">
+            <a href="https://pomodoro-clock-fcc.surge.sh/">
               <div className="image-container">
                 <img src={Pomodoro} className="project-image"/>
                   <div className="overlay overlay-hover">
@@ -84,7 +84,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>D3.js U.S. GDP Chart</h3>
-            <a href="#">
+            <a href="https://gdp-fcc.surge.sh/">
               <div className="image-container">
                 <img src={USGDP} className="project-image"/>
                   <div className="overlay overlay-hover">
@@ -95,7 +95,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>Tic-Tac-Toe Game</h3>
-            <a href="https://eurogdp.herokuapp.com/">
+            <a href="https://tictactoe-fcc.surge.sh/">
               <div className="image-container">
                 <img src={TicTacToe} className="project-image"/>
                   <div className="overlay overlay-hover">
@@ -106,7 +106,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>Calculator</h3>
-            <a href="https://eurogdp.herokuapp.com/">
+            <a href="https://calculator-fcc.surge.sh/">
               <div className="image-container">
                 <img src={Calculator} className="project-image"/>
                   <div className="overlay overlay-hover">

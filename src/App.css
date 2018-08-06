@@ -982,3 +982,54 @@ a {
     font-size: 1.2em; }
     .message-box textarea {
       width: 100%; } }
+
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #3F3F3F;
+  width: 80%;
+  margin: auto;
+  height: 40em; }
+
+.modal-h2 {
+  text-align: center;
+  color: snow;
+  padding: .5em; }
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #19B5FE;
+  margin-top: 2em; }
+
+.modal-left {
+  width: 50%;
+  float: left;
+  height: 35em; }
+  .modal-left img {
+    width: 100%;
+    height: 100%;
+    padding: 1em; }
+
+.modal-right {
+  width: 50%;
+  float: right; }
+  .modal-right p {
+    width: 80%;
+    margin: auto; }
+  .modal-right a {
+    width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 3em; }
+  .modal-right button {
+    margin: auto;
+    display: block;
+    margin-top: 5em; }

@@ -4,7 +4,6 @@ import Logo from './images/centered.png';
 import SpaceStations from './images/space.png';
 import Scrollchor from 'react-scrollchor';
 
-<Scrollchor to="#features" className="nav-link">Features</Scrollchor>
 
 const NavMenu = () => {
   return (

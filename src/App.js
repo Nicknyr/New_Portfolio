@@ -10,6 +10,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee, faBars, faCopyright, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Contact from './Contact';
+import TestModal from './TestModal';
 
 
 library.add(fab, faCheckSquare, faCoffee, faBars, faCopyright)
