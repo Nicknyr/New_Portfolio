@@ -34,7 +34,7 @@ class ContactForm extends Component {
                 <input type="text" placeholder="Last name" name="last_name" />
               </label>
               <label className="email">
-                <input type="text" placeholder="Email" name="email" />
+                <input type="text" placeholder="Email" name="_replyto" />
               </label>
             <div className="message-box">
               <textarea value={this.state.value} onChange={this.handleChange} placeholder="Your message" rows="7" cols="50" name="message"></textarea>
