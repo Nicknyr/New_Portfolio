@@ -517,28 +517,6 @@ pre {
     display: none; }
   .full-width-header {
     display: none; }
-  .hamburger {
-    position: absolute;
-    z-index: 2;
-    margin: .5em;
-    border: .5px solid snow;
-    height: 3em; }
-    .hamburger span {
-      margin: .5em;
-      font-size: 1em;
-      line-height: 3em;
-      text-transform: uppercase; }
-  .menu-div {
-    background-color: #013243;
-    text-align: center;
-    list-style-type: none;
-    font-size: 1.2em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 3em;
-    height: 50vh; }
-  .nav {
-    list-style-type: none; }
   hr {
     width: 50%;
     text-align: center;
@@ -550,14 +528,14 @@ pre {
     background-color: snow; }
   /* Position and sizing of burger button */
   .bm-burger-button {
-    position: fixed;
+    position: absolute;
     width: 36px;
     height: 30px;
     left: 36px;
     top: 36px; }
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47; }
+    background: #feca57; }
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
     height: 24px;
@@ -579,7 +557,9 @@ pre {
     padding: 0.8em; }
   /* Individual item */
   .bm-item {
-    display: inline-block; }
+    display: inline-block;
+    padding: .5em;
+    text-transform: uppercase; }
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3); } }
@@ -856,7 +836,7 @@ a {
       padding: .5em; }
     .project-section h3 {
       margin: auto;
-      padding: 1em; }
+      padding-bottom: 1em; }
     .project-section hr {
       margin-bottom: 5em;
       width: 90%; }

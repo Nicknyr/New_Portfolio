@@ -24,40 +24,6 @@ $secondary: #222f3e;
     display: none;
   }
 
-  .hamburger {
-    position: absolute;
-    z-index: 2;
-    margin: .5em;
-    border: .5px solid snow;
-    height: 3em;
-    //background-color: red;
-
-    span {
-      //background-color: green;
-      margin: .5em;
-      font-size: 1em;
-      line-height: 3em;
-      text-transform: uppercase;
-    }
-  }
-
-  .menu-div {
-    background-color: #013243;
-    text-align: center;
-    list-style-type: none;
-    font-size: 1.2em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 3em;
-    height: 50vh;
-  }
-
-
-  .nav {
-    list-style-type: none;
-  }
-
-
   hr {
     width: 50%;
     text-align: center;
@@ -74,16 +40,18 @@ $secondary: #222f3e;
   // React-burger-menu styles **************************************************/
   /* Position and sizing of burger button */
   .bm-burger-button {
-    position: fixed;
+    //position: fixed;
+    position: absolute;
     width: 36px;
     height: 30px;
     left: 36px;
     top: 36px;
+    //opacity: 0.7;
   }
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #feca57; //#373a47;
   }
 
   /* Position and sizing of clickable cross button */
@@ -118,6 +86,8 @@ $secondary: #222f3e;
   /* Individual item */
   .bm-item {
     display: inline-block;
+    padding: .5em;
+    text-transform: uppercase;
   }
 
   /* Styling of overlay */
