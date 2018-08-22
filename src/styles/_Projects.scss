@@ -8,6 +8,7 @@
     margin-right: auto;
     text-align: center;
 
+
     a {
       text-decoration: none;
     }
@@ -20,13 +21,15 @@
       //background-color: red;
     }
 
+
     h3 {
-      margin: auto;
+      //margin: auto;
       padding-bottom: 1em;
+      //background-color: yellow;
     }
 
     hr {
-      margin-bottom: 5em;
+      margin-bottom: 10em;
       width: 90%;
     }
 
@@ -35,6 +38,8 @@
 
       li {
         padding-bottom: 10em;
+        //background-color: yellow;
+        height: 100vh;
       }
 
       p {
@@ -76,6 +81,7 @@
     z-index: 1;
 
 
+
     ul li p, h3 {
       display: none;
     }
@@ -88,6 +94,7 @@
         display: inline-block;
         vertical-align: top;
         padding: .5em;
+        height: auto;
       }
     }
   }
@@ -95,8 +102,6 @@
 
   .image-container {
     position: relative;
-    //width: 350px;
-    //height: 250px;
     width: 100%;
     height: 100%;
     display: inline-block;

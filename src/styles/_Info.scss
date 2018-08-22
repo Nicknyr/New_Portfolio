@@ -1,32 +1,22 @@
 
 @media only screen and (min-width : 300px) {
   .info-section {
-    padding-top: 10em;
+    padding-top: 15em;
+    padding-bottom: 15em;
     width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10em;
     text-align: center;
+    //background-color: red;
   }
 
-  .nodes {
-    height: auto;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    position: absolute;
-    opacity: 0.1;
-
-    img {
-      max-width: 100%;
-      height: 100%;
-    }
-  }
 
   h1 {
     //font-style: italic;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
   .my-image {
@@ -52,11 +42,11 @@
 @media only screen and (min-width : 768px) {
   .info-section {
     padding-top: 10em;
+    padding-bottom: 10em;
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15em;
     text-align: center;
   }
 
