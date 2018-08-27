@@ -17,7 +17,7 @@ const Projects = () => {
         <hr />
         <ul>
           <li>
-            <h3>Steem Blockchain Social Media Web App</h3>
+            <h3>Steem Blockchain Web App</h3>
             <a href="https://steem-project.herokuapp.com/">
               <div className="image-container">
                 <img src={SteemProject} className="project-image"/>
@@ -28,7 +28,7 @@ const Projects = () => {
             </a>
           </li>
           <li>
-            <h3>Wealth Of European Nations Choropleth Map</h3>
+            <h3>European GDP Choropleth Map</h3>
             <a href="https://eurogdp.herokuapp.com/">
               <div className="image-container">
                 <img src={EuroGDP} className="project-image"/>
@@ -61,7 +61,7 @@ const Projects = () => {
             </a>
           </li>
           <li>
-            <h3>PSD To HTML/CSS Resume Project</h3>
+            <h3>PSD To HTML/CSS Resume</h3>
             <a href="https://psdresume.surge.sh/">
               <div className="image-container">
                 <img src={Resume} className="project-image"/>

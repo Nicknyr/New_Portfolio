@@ -21,10 +21,6 @@ const NavMenu = () => {
         </li>
         <hr/>
         <li>
-          <Scrollchor to="#contact">Blog</Scrollchor>
-        </li>
-        <hr/>
-        <li>
           <Scrollchor to="#contact">Contact</Scrollchor>
         </li>
       </ul>

@@ -1,8 +1,8 @@
 
 @media only screen and (min-width : 300px) {
   .info-section {
-    padding-top: 15em;
-    padding-bottom: 15em;
+    padding-top: 10em;
+    padding-bottom: 10em;
     width: 90%;
     height: auto;
     margin-left: auto;
@@ -40,42 +40,29 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-  .info-section {
-    padding-top: 10em;
-    padding-bottom: 10em;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
 
-
-
-/*  .name-title {
-    h1, h2 {
-      display: inline-block;
-      padding: 1em;
-    }
-  }
-*/
-
-  .me {
-    width: 100%;
-    height: auto;
+  h1 {
+    width: 90%;
+    margin: auto;
   }
 
   .description {
-    width: 50%;
-    height: auto;
+    width: 80%;
     margin: auto;
-    //background-color: red;
-    //padding: 1em;
+  }
+}
 
-    p {
-      //width: 80%;
-      margin: auto;
-      //font-weight: bolder;
-    }
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  h1 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .description {
+    width: 60%;
+    margin: auto;
   }
 }
