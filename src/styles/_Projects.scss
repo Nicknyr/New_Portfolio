@@ -63,6 +63,14 @@
   }
 }
 
+@media only screen and (min-width : 300px) and (orientation: landscape) {
+  .project-section {
+    .image-container {
+      height: auto;
+    }
+  }
+}
+
 
 
 /* Small Devices, Tablets */

@@ -840,6 +840,10 @@ a {
       height: 250px;
       width: 100%; } }
 
+@media only screen and (min-width: 300px) and (orientation: landscape) {
+  .project-section .image-container {
+    height: auto; } }
+
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .project-section {
