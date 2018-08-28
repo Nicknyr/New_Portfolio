@@ -836,13 +836,11 @@ a {
         text-align: left;
         line-height: 1.6;
         font-weight: 500; }
+    .project-section .image-container {
+      height: 120vh; }
     .project-section .project-image {
       height: 250px;
       width: 100%; } }
-
-@media only screen and (min-width: 300px) and (orientation: landscape) {
-  .project-section .image-container {
-    height: 120vh; } }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
@@ -864,6 +862,8 @@ a {
     margin-bottom: 20em;
     z-index: 1;
     padding-top: 5em; }
+    .project-section .image-container {
+      height: auto; }
     .project-section hr {
       width: 90%; }
     .project-section ul li p, .project-section h3 {
