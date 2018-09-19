@@ -30,7 +30,7 @@ const Projects = () => {
           </li>
           <li>
             <h3>React Recipe App</h3>
-            <a href="https://steem-project.herokuapp.com/">
+            <a href="https://fcc-recipebox.surge.sh/">
               <div className="image-container">
                 <img src={RecipeBox} className="project-image"/>
                   <div className="overlay overlay-hover">
