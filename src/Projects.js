@@ -9,6 +9,7 @@ import USGDP from './images/us-gdp-medium.png';
 import Resume from './images/resume-cropped.png';
 import TicTacToe from './images/tic-tac-toe-medium.png';
 import Calculator from './images/calculator-medium.png';
+import RecipeBox from './images/recipe-box-medium.png';
 
 const Projects = () => {
   return (
@@ -23,6 +24,17 @@ const Projects = () => {
                 <img src={SteemProject} className="project-image"/>
                   <div className="overlay overlay-hover">
                     <div className="text">React/Redux webapp that uses the dsteem API to pull social media post data from the Steem blockchain</div>
+                  </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <h3>React Recipe App</h3>
+            <a href="https://steem-project.herokuapp.com/">
+              <div className="image-container">
+                <img src={RecipeBox} className="project-image"/>
+                  <div className="overlay overlay-hover">
+                    <div className="text">React app that allows the user to view, add, edit, and delete recipes and display them in a To-Do-List style app</div>
                   </div>
               </div>
             </a>
