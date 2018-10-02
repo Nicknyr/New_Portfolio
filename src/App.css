@@ -827,7 +827,7 @@ a {
       list-style-type: none; }
       .project-section ul li {
         padding-bottom: 10em;
-        height: 150vh; }
+        height: auto; }
       .project-section ul p {
         width: 100%;
         margin: auto;
@@ -836,18 +836,9 @@ a {
         text-align: left;
         line-height: 1.6;
         font-weight: 500; }
-    .project-section .image-container {
-      height: 120vh; }
     .project-section .project-image {
       height: 250px;
       width: 100%; } }
-
-@media only screen and (orientation: landscape) and (max-width: 768px) {
-  .project-section ul li {
-    height: auto; }
-  .project-section .project-image {
-    width: 300px;
-    height: 200px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {

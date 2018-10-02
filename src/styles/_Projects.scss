@@ -39,7 +39,7 @@
       li {
         padding-bottom: 10em;
         //background-color: yellow;
-        height: 150vh;
+        height: auto;
       }
 
       p {
@@ -54,7 +54,7 @@
     }
 
     .image-container {
-      height: 120vh;
+      //height: 120vh;
     }
 
     .project-image {
@@ -69,16 +69,7 @@
 
 
 @media only screen and (orientation:landscape) and (max-width: 768px) {
-  .project-section {
-    ul li {
-      height: auto;
-    }
 
-    .project-image {
-      width: 300px;
-      height: 200px;
-    }
-  }
 }
 
 
