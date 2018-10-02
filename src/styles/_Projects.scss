@@ -39,7 +39,8 @@
       li {
         padding-bottom: 10em;
         //background-color: yellow;
-        height: 100vh;
+        //height: 100vh;
+        height: auto;
       }
 
       p {
@@ -68,6 +69,12 @@
 }
 
 
+/*@media only screen and (orientation:landscape) and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+}
+*/
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {

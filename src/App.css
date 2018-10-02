@@ -827,7 +827,7 @@ a {
       list-style-type: none; }
       .project-section ul li {
         padding-bottom: 10em;
-        height: 100vh; }
+        height: auto; }
       .project-section ul p {
         width: 100%;
         margin: auto;
@@ -842,6 +842,12 @@ a {
       height: 250px;
       width: 100%; } }
 
+/*@media only screen and (orientation:landscape) and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+}
+*/
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .project-section {
